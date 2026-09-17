@@ -25,8 +25,8 @@ from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, Con
 
 logging.basicConfig(level=logging.INFO)
 
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "ВСТАВЬ_ТОКЕН_БОТА")
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "ВСТАВЬ_API_КЛЮЧ")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8636853916:AAETwsvuE3CeydA_k9ISMb9D5n_wTEUqqfQ")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AQ.Ab8RN6Ig5qfZkj1mrVL3aedHzaZWOhDDgnP-nhYopMDcWornaA")
 
 genai.configure(api_key=GEMINI_API_KEY)
 
